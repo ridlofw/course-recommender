@@ -1,125 +1,52 @@
-# Capstone Project — Course Recommender System (Final Task)
+# Course Recommender System 🎓
 
-**Nama:** Ridlo Fanata Wicaksana  
-**Tanggal:** 22 Jan 2026 (Asia/Jakarta)
+Proyek ini adalah sistem rekomendasi kursus yang cerdas, dirancang untuk membantu pengguna menemukan materi pembelajaran yang paling relevan dengan minat dan kebutuhan mereka. Menggabungkan berbagai algoritma Machine Learning untuk memberikan rekomendasi yang akurat dan personal.
 
-Project ini dibuat untuk memenuhi **Capstone Project: Final Task** (presentasi) — berisi:
-- EDA (grafik + insight)
-- Content-based recommender (3 metode)
-- Collaborative filtering (KNN, NMF, Neural Embedding)
-- Evaluasi model (Precision@10, Recall@10, RMSE)
-- (Opsional) Demo Streamlit untuk bonus kreativitas
+## 🚀 Fitur Unggulan
 
----
+*   **🔍 Jelajah Topik**: Temukan kursus populer berdasarkan kategori minat Anda (Bisnis, Data Science, AI, dll).
+*   **🔗 Cari Kemiripan**: Masukkan judul kursus yang Anda sukai, dan sistem akan mencari kursus lain yang memiliki karakteristik serupa.
+*   **🤖 Multi-Model Engine**: Menggunakan kekuatan 5 algoritma sekaligus:
+    *   **Content-Based**: Analisis deskripsi dan silabus kursus.
+    *   **Collaborative Filtering (KNN)**: Berdasarkan pola kemiripan antar item.
+    *   **NMF & Neural Embedding**: Teknik faktorisasi matriks untuk prediksi yang lebih dalam.
+    *   **Clustering**: Rekomendasi berdasarkan komunitas pengguna serupa.
+*   **📊 Dashboard Analitik**: Visualisasi performa model (Precision, Recall, F1-Score) untuk transparansi akurasi.
+*   **🎨 Antarmuka Interaktif**: Dibangun dengan Streamlit untuk pengalaman pengguna yang mulus dan modern.
 
-## 1) Setup cepat
+## 🛠️ Teknologi yang Digunakan
 
-### Opsi A — pakai notebook
-Buka `notebook.ipynb` lalu jalankan semua sel.
+*   **Bahasa Utama**: Python
+*   **Web Framework**: Streamlit
+*   **Data Processing**: Pandas, NumPy
+*   **Machine Learning**: Scikit-Learn, TensorFlow/Keras (untuk Neural Embedding)
+*   **Visualisasi**: Matplotlib, Seaborn
 
-### Opsi B — pakai script
-Buat environment (opsional) dan install dependensi:
+## 💻 Cara Menjalankan
 
-```bash
-python -m venv .venv
-# Windows: .venv\Scripts\activate
-source .venv/bin/activate
+Ikuti langkah mudah ini untuk menjalankan aplikasi di komputer Anda:
 
-pip install -r requirements.txt
-```
+1.  **Install Dependensi**
+    Pastikan Python sudah terinstal, lalu jalankan perintah berikut di terminal:
+    ```bash
+    pip install -r app_streamlit/requirements.txt
+    ```
 
----
+2.  **Jalankan Aplikasi**
+    Mulai aplikasi Streamlit dengan perintah:
+    ```bash
+    streamlit run app_streamlit/app.py
+    ```
 
-## 2) Jalankan EDA + model
+3.  **Akses Browser**
+    Aplikasi akan otomatis terbuka di browser Anda (biasanya di `http://localhost:8501`).
 
-### A) EDA (menghasilkan gambar untuk slide)
-```bash
-python src/eda.py
-```
+## 📂 Struktur Proyek
 
-Output ke folder `outputs/`:
-- `genre_counts.png`
-- `rating_dist.png`
-- `enrollment_dist.png` (jika kolom enrollment ada)
-- `top20_courses.png`
-- `title_words.png`
-- `wordcloud_like.png`
-- `data_summary.txt`
-
-### B) Jalankan tiap model (demo singkat)
-```bash
-python src/content_user_profile.py
-python src/content_similarity.py
-python src/content_clustering.py
-
-python src/cf_knn.py
-python src/cf_nmf.py
-python src/cf_neural_embedding.py
-```
-
-### C) Evaluasi & perbandingan model (untuk slide evaluasi)
-```bash
-python src/evaluate.py
-```
-
-Output:
-- `outputs/metrics_summary.csv`
-- `outputs/metrics_summary.md`
-- `outputs/metrics_precision_at10.png`
-- `outputs/metrics_recall_at10.png`
-- `outputs/metrics_rmse.png` (jika ada)
+*   `app_streamlit/`: Source code aplikasi web (Streamlit).
+*   `src/`: Kode inti untuk model Machine Learning dan pemrosesan data.
+*   `data/`: Dataset kursus dan rating.
+*   `outputs/`: Hasil visualisasi dan evaluasi model.
 
 ---
-
-## 3) Isi PPT template Coursera
-
-Di dalam zip ini ada template: **`ml-capstone-template-coursera.pptx`**.
-
-Cara pakai:
-1. Buka template PPT
-2. Replace placeholder dengan:
-   - Grafik dari folder `outputs/`
-   - Tabel dari `outputs/metrics_summary.csv` (atau `metrics_summary.md`)
-3. Export PPT → PDF untuk submission Coursera
-
----
-
-## 4) (Opsional) Deploy Streamlit untuk bonus kreativitas
-
-> Aku tidak bisa deploy dari sini karena butuh akses akun GitHub/Streamlit kamu.
-> Kamu yang deploy, lalu ambil screenshot + link untuk dimasukkan ke slide.
-
-### Jalankan lokal
-```bash
-pip install -r app_streamlit/requirements.txt
-streamlit run app_streamlit/app.py
-```
-
-### Deploy ke Streamlit Cloud
-1. Push folder project ini ke GitHub repo
-2. Streamlit Cloud → New app → pilih repo
-3. Entry point: `app_streamlit/app.py`
-4. Requirements: `app_streamlit/requirements.txt`
-
-Setelah online:
-- ambil screenshot UI
-- copy link aplikasi
-- masukkan ke slide “Creativity / Demo”
-
----
-
-## 5) Dataset
-Folder `data/` berisi dataset **sintetis** agar project bisa langsung jalan.
-Kalau kamu punya dataset resmi dari lab Coursera, replace file:
-- `data/courses.csv`
-- `data/ratings.csv`
-
-Lihat format di: `data/README_dataset.md`
-
----
-
-## Struktur folder
-- `src/` : semua script model + evaluasi
-- `outputs/` : gambar + tabel siap untuk slide
-- `app_streamlit/` : demo web app Streamlit
-- `notebook.ipynb` : all-in-one notebook
+**Dibuat oleh Ridlo Fanata Wicaksana**
