@@ -1,0 +1,29 @@
+CAPSTONE RECOMMENDER — DATA SUMMARY
+Users:   200
+Courses: 150
+Ratings: 8936
+Matrix density (ratings / users*courses): 0.2979
+
+Ratings stats:
+count    8936.000000
+mean        1.729414
+std         0.580377
+min         1.000000
+25%         1.260000
+50%         1.640000
+75%         2.090000
+max         4.360000
+Name: rating, dtype: float64
+
+Top 10 most-rated courses (by count):
+ course_id  count                                          title
+       118     88                         Practical Data Science
+        46     87 Advanced Data Engineering & Data Visualization
+        30     82                          Foundations of Python
+       140     81                        Intro to SQL & Business
+        54     80    Complete Computer Vision & Data Engineering
+       122     79                          Foundations of Python
+       136     78                          Complete Data Science
+        12     78                                Practical Cloud
+        67     77                   Essential Data Visualization
+        39     77                               Applied Business

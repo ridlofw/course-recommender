@@ -1,0 +1,151 @@
+course_id,title,genres,enrollment
+1,Advanced Big Data,Big Data,2222
+2,Applied Big Data,Big Data|Machine Learning,516
+3,Mastering Big Data & Computer Vision,Big Data|Computer Vision|MLOps,2279
+4,Intro to MLOps,MLOps,3237
+5,Complete Business,Business|Big Data,1174
+6,Hands-on DevOps & Big Data,DevOps|Big Data|Data Science,3802
+7,Complete Data Engineering,Data Engineering,4470
+8,Complete Deep Learning & Computer Vision,Deep Learning|Computer Vision|Recommender Systems,266
+9,Complete NLP & Recommender Systems,NLP|Recommender Systems|DevOps,1662
+10,Intro to Statistics,Statistics,987
+11,Modern Computer Vision,Computer Vision|Machine Learning,1173
+12,Practical Cloud,Cloud|DevOps|Python,1596
+13,Mastering DevOps,DevOps|Big Data,1477
+14,Mastering DevOps,DevOps|Python,86
+15,Foundations of Recommender Systems,Recommender Systems|Statistics|NLP,2321
+16,Applied Python,Python,616
+17,Mastering Data Engineering,Data Engineering|Computer Vision,2847
+18,Practical NLP & Data Engineering,NLP|Data Engineering,2818
+19,Essential SQL,SQL|Data Science,1112
+20,Mastering Data Science & Recommender Systems,Data Science|Recommender Systems|Deep Learning,1442
+21,Foundations of NLP,NLP|Python,3930
+22,Modern Cloud & Data Engineering,Cloud|Data Engineering,876
+23,Intro to Machine Learning,Machine Learning,3625
+24,Essential Cloud,Cloud|Computer Vision|Python,803
+25,Applied Python,Python|Cloud,1542
+26,Modern Data Engineering,Data Engineering|SQL,634
+27,Complete DevOps,DevOps|Statistics,1366
+28,Applied Big Data,Big Data,3598
+29,Complete Recommender Systems,Recommender Systems|Data Visualization|Cloud,4517
+30,Foundations of Python,Python|Computer Vision|Data Visualization,925
+31,Complete Big Data,Big Data,3611
+32,Hands-on Cloud,Cloud|Data Visualization,2941
+33,Intro to Big Data,Big Data|Machine Learning,255
+34,Advanced SQL,SQL,765
+35,Applied Python,Python|Machine Learning|NLP,4629
+36,Applied SQL,SQL|NLP,162
+37,Practical Statistics,Statistics|Data Engineering,459
+38,Foundations of Data Engineering & MLOps,Data Engineering|MLOps|Cloud,2393
+39,Applied Business,Business|Data Visualization|Data Engineering,156
+40,Foundations of MLOps,MLOps,744
+41,Modern Business,Business,587
+42,Applied Machine Learning,Machine Learning|Computer Vision,3314
+43,Essential Computer Vision & Machine Learning,Computer Vision|Machine Learning|Data Visualization,1189
+44,Foundations of Business,Business,1886
+45,Complete DevOps,DevOps,4050
+46,Advanced Data Engineering & Data Visualization,Data Engineering|Data Visualization|Deep Learning,2599
+47,Applied Data Engineering,Data Engineering|DevOps|Python,2203
+48,Practical MLOps,MLOps,3755
+49,Complete MLOps,MLOps|Deep Learning|Big Data,1613
+50,Mastering Cloud,Cloud|NLP,517
+51,Essential Deep Learning & Data Science,Deep Learning|Data Science,1242
+52,Mastering DevOps,DevOps,808
+53,Practical Python & SQL,Python|SQL|NLP,1022
+54,Complete Computer Vision & Data Engineering,Computer Vision|Data Engineering|Data Visualization,762
+55,Applied Deep Learning,Deep Learning,702
+56,Essential Computer Vision,Computer Vision,653
+57,Essential Business,Business,3486
+58,Practical Business,Business|Cloud|Deep Learning,3591
+59,Practical Machine Learning & Data Engineering,Machine Learning|Data Engineering|Cloud,2018
+60,Foundations of Statistics,Statistics,3331
+61,Foundations of Data Engineering,Data Engineering,1467
+62,Hands-on Big Data & Data Science,Big Data|Data Science|Statistics,3188
+63,Hands-on Cloud,Cloud|Recommender Systems|Machine Learning,3000
+64,Mastering Recommender Systems & Statistics,Recommender Systems|Statistics|Cloud,138
+65,Applied DevOps,DevOps,3994
+66,Intro to Deep Learning,Deep Learning|SQL,3049
+67,Essential Data Visualization,Data Visualization|Cloud|Business,2158
+68,Applied Statistics,Statistics|Big Data|Data Visualization,1221
+69,Complete MLOps & Recommender Systems,MLOps|Recommender Systems|Machine Learning,2992
+70,Modern DevOps,DevOps,1586
+71,Hands-on MLOps & Python,MLOps|Python|DevOps,1459
+72,Intro to Business & Machine Learning,Business|Machine Learning,324
+73,Mastering Data Science & NLP,Data Science|NLP|Cloud,1998
+74,Foundations of Statistics & Recommender Systems,Statistics|Recommender Systems|MLOps,265
+75,Essential Deep Learning & Data Engineering,Deep Learning|Data Engineering|MLOps,2110
+76,Essential SQL,SQL,2642
+77,Complete MLOps & DevOps,MLOps|DevOps|Machine Learning,4627
+78,Modern MLOps,MLOps|Big Data|Recommender Systems,4020
+79,Intro to NLP,NLP|Data Engineering,716
+80,Essential Business,Business,4294
+81,Applied Cloud & Recommender Systems,Cloud|Recommender Systems|Data Engineering,1368
+82,Advanced Python & Statistics,Python|Statistics,1201
+83,Complete Recommender Systems,Recommender Systems|SQL,1928
+84,Intro to Data Visualization,Data Visualization,4746
+85,Complete MLOps,MLOps|Big Data|Statistics,2700
+86,Foundations of NLP,NLP|Deep Learning,2686
+87,Hands-on Data Visualization,Data Visualization,3687
+88,Foundations of Deep Learning,Deep Learning,3489
+89,Essential MLOps & Big Data,MLOps|Big Data,3091
+90,Foundations of NLP & Computer Vision,NLP|Computer Vision,4682
+91,Complete DevOps,DevOps|Big Data|Python,3923
+92,Practical DevOps,DevOps|Machine Learning|Data Visualization,520
+93,Hands-on Python,Python,2846
+94,Complete NLP,NLP,2356
+95,Foundations of Statistics,Statistics|Computer Vision|Big Data,2486
+96,Mastering MLOps,MLOps,642
+97,Intro to Machine Learning,Machine Learning|Data Engineering|Computer Vision,2122
+98,Intro to Computer Vision,Computer Vision,1701
+99,Intro to Data Engineering & Big Data,Data Engineering|Big Data|MLOps,1852
+100,Essential Python,Python,781
+101,Foundations of MLOps,MLOps,2217
+102,Essential Recommender Systems,Recommender Systems|Machine Learning|SQL,4683
+103,Advanced Python,Python|Statistics,4933
+104,Mastering Machine Learning & Cloud,Machine Learning|Cloud|DevOps,3203
+105,Foundations of Business,Business|Data Science,110
+106,Modern Cloud & Recommender Systems,Cloud|Recommender Systems|Data Visualization,2239
+107,Foundations of DevOps,DevOps|Recommender Systems,597
+108,Advanced MLOps,MLOps,1455
+109,Practical Recommender Systems,Recommender Systems|Machine Learning|Data Science,3345
+110,Mastering Machine Learning & Computer Vision,Machine Learning|Computer Vision,193
+111,Mastering Python,Python|DevOps,1031
+112,Essential Computer Vision,Computer Vision,229
+113,Hands-on Data Science,Data Science,305
+114,Applied MLOps & Business,MLOps|Business|Big Data,4254
+115,Mastering Data Engineering,Data Engineering|MLOps|Recommender Systems,3505
+116,Hands-on Statistics,Statistics|Data Science,668
+117,Practical Recommender Systems & Business,Recommender Systems|Business,4263
+118,Practical Data Science,Data Science|Deep Learning|Computer Vision,3564
+119,Practical Data Science,Data Science|Statistics|Business,259
+120,Modern Cloud & Computer Vision,Cloud|Computer Vision,504
+121,Foundations of NLP,NLP|MLOps,3931
+122,Foundations of Python,Python|Cloud|Business,1541
+123,Complete Computer Vision & Data Visualization,Computer Vision|Data Visualization,4705
+124,Essential Recommender Systems & Statistics,Recommender Systems|Statistics,2397
+125,Advanced MLOps,MLOps|Data Visualization|Machine Learning,2168
+126,Hands-on Data Engineering & NLP,Data Engineering|NLP,2073
+127,Applied NLP,NLP|Business|SQL,2121
+128,Practical Deep Learning,Deep Learning,2883
+129,Foundations of Business,Business|NLP,3257
+130,Modern Data Visualization,Data Visualization|Deep Learning,2768
+131,Essential Business,Business|NLP,2588
+132,Mastering DevOps,DevOps|Python,2542
+133,Applied Big Data,Big Data,1606
+134,Practical Cloud & Big Data,Cloud|Big Data,623
+135,Foundations of Big Data & Data Science,Big Data|Data Science|Recommender Systems,1703
+136,Complete Data Science,Data Science|Data Visualization|Recommender Systems,4144
+137,Applied Recommender Systems & SQL,Recommender Systems|SQL,3024
+138,Practical SQL,SQL|Business,4977
+139,Hands-on Data Visualization & Big Data,Data Visualization|Big Data,3541
+140,Intro to SQL & Business,SQL|Business|Data Science,2649
+141,Essential Python,Python|Cloud|DevOps,2802
+142,Mastering Python & DevOps,Python|DevOps|NLP,1993
+143,Essential Cloud & Computer Vision,Cloud|Computer Vision|Data Science,795
+144,Essential MLOps,MLOps,271
+145,Hands-on Data Engineering,Data Engineering|Deep Learning,2476
+146,Mastering Data Science,Data Science|Machine Learning|Cloud,4225
+147,Intro to NLP & Cloud,NLP|Cloud,3826
+148,Essential Recommender Systems,Recommender Systems|SQL|Business,4230
+149,Modern Recommender Systems,Recommender Systems|Data Engineering,2548
+150,Hands-on NLP,NLP,4258
